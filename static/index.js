@@ -350,10 +350,10 @@
             return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
         }
         SubmitResults();
-        if (score <= 49) return '试着好好练一下？';
-        if (score <= 99) return 'TCL';
-        if (score <= 149) return 'TQL';
-        if (score <= 199) return '您';
+        if (score <= 49) return '好吃!好吃!';
+        if (score <= 99) return '还不够！还要吃更多！;
+        if (score <= 149) return '你是砂糖卡比！！';
+        if (score <= 199) return '砂糖橘成为了邪神ו‘ח„י©ו›½ה¹ו›ח„י¢ו›ו₪ה¼ו‘ו‡÷ו';
         return '人？';
     }
 
@@ -391,7 +391,7 @@
     w.initSetting = function() {
         document.getElementById("username").value = cookie("username") ? cookie("username") : "";
         document.getElementById("message").value = cookie("message") ? cookie("message") : "";
-        document.getElementsByTagName("title")[0].innerText = cookie("title") ? cookie("title") : "吃掉小鹿乃";
+        document.getElementsByTagName("title")[0].innerText = cookie("title") ? cookie("title") : "✧砂糖橘大冒险✧";
         if (cookie("keyboard")) {
             document.getElementById("keyboard").value = cookie("keyboard");
             map = {}
